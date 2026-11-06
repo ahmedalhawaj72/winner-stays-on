@@ -12,7 +12,7 @@ const E = {
     if (sa > sb + (E.REG - lb)) return 'a';
     if (sb > sa + (E.REG - la)) return 'b';
     return null;
-  },
+  public/},
   enter(s, phase, now) { s.phase = phase; s.dur = E.DUR[phase] || 0; s.end = now + s.dur; },
   beginKick(s, now) {
     s.id += 1; s.ha = null; s.hb = null;
